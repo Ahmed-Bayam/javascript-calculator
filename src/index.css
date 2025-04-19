@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;  
+}
+.containerr{
+  width: 100%;
+  height: 100vh;
+  background-color: #c1c2d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calculator{
+  width: 350px;
+  height: max-content;
+  border: 1px solid gray;
+  padding: 15px;
+  background-color: black;
+}
+.roww{
+  width: 100%;
+  height: 65px;
+  position: relative;
+}
+.roww button{
+  height: 100%;
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 0;
+}
+#AC,#zero{
+  width: 50%;
+}
+#equals{
+  height: calc(100%*2);
+  position: absolute;
+  bottom: 0px;
+}
+input{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  border: none;
+  color: white;
+}
